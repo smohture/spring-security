@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/home")
     public String home(){
-        return "from database-based!";
+        return "from basic-auth-database-based!";
     }
 }
